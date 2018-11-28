@@ -3,14 +3,13 @@
 requests第一次封装
 整个测试框架的基础
 """
-import traceback
 import requests,json
 from Public.log import LOG,logger
 
 headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:51.0) Gecko/20100101 Firefox/51.0"}
+
 @logger("requests封装文件：request_base.py")
 class request(object):
-
     def __init__(self):
         # 自动加载浏览器请求头
        self.headers = headers
@@ -89,11 +88,11 @@ class request(object):
 
 
 #未知原因：使用程序入口，无发打印信息
-# if "__name__" == "__main__":  #不使用入口
-
-url = "http://www.shangzhan168.cn/Account/Login"
-Interface_parameters = {"hnAccount": "15020579521", "hnPassword": "123456"}
-r = request()
-a = r.post(url,Interface_parameters)
-# print(a)
+if __name__ == "__main__":  #不使用入口
+    #post请求调试
+    url = "http://www.shangzhan168.cn/Account/Login"
+    Interface_parameters = {"hnAccount": "15020579521", "hnPassword": "123456"}
+    r = request()
+    a = r.post(url,Interface_parameters)
+    print("requests第一次封装")
 

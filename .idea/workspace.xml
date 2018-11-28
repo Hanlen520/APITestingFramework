@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9034fd4-1587-4f2f-96a9-054b3bf7c866" name="Default" comment="" />
+    <list default="true" id="d9034fd4-1587-4f2f-96a9-054b3bf7c866" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Dingtalk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_http_excel_re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/APITestingFramework1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APITestingFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case/case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Case/case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceBase/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceBase/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceBase/log/.log-2018-11-27-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterfaceBase/requests_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterfaceBase/requests_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Dingtalk.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dingtalk/Dingtalk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/assertion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Public/assertion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/encapsulation_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Public/encapsulation_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/get_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Public/get_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/get_excel_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/Public/get_excel_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/test_requests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/case.xlsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,23 +28,36 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/API$requests_base.coverage" NAME="requests_base Coverage Results" MODIFIED="1543322903126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceBase" />
+    <SUITE FILE_PATH="coverage/APITestingFramework$get_excel.coverage" NAME="get_excel Coverage Results" MODIFIED="1543402851221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Public" />
     <SUITE FILE_PATH="coverage/APITestingFramework1$run_http_excel_re.coverage" NAME="run_http_excel_re Coverage Results" MODIFIED="1543195766174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/APITestingFramework$run_http_html.coverage" NAME="run_http_html Coverage Results" MODIFIED="1543304160821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/APITestingFramework$run_http_html.coverage" NAME="run_http_html Coverage Results" MODIFIED="1543403937025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/APITestingFramework$base.coverage" NAME="base Coverage Results" MODIFIED="1543306091732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interfaceBase" />
+    <SUITE FILE_PATH="coverage/APITestingFramework$case.coverage" NAME="case Coverage Results" MODIFIED="1543393411315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
     <SUITE FILE_PATH="coverage/API$demo.coverage" NAME="demo Coverage Results" MODIFIED="1543318939251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/API$dd.coverage" NAME="dd Coverage Results" MODIFIED="1543319693760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/APITestingFramework$requests_base.coverage" NAME="requests_base Coverage Results" MODIFIED="1543392134474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceBase" />
     <SUITE FILE_PATH="coverage/APITestingFramework1$case.coverage" NAME="case Coverage Results" MODIFIED="1543052556225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Case" />
     <SUITE FILE_PATH="coverage/APITestingFramework1$run_http_html.coverage" NAME="run_http_html Coverage Results" MODIFIED="1543224856064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/APITestingFramework$base__1_.coverage" NAME="base (1) Coverage Results" MODIFIED="1543392320892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterfaceBase" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="requests_base.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InterfaceBase/requests_base.py">
+      <file leaf-file-name="run_http_excel_re.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_http_excel_re.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2052">
-              <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+            <state relative-caret-position="81">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyreport_excel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/pyreport_excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2738">
+              <caret line="108" column="23" lean-forward="true" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
               <folding>
-                <element signature="e#54#70#0" expanded="true" />
+                <element signature="e#38#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,6 +71,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,17 +91,21 @@
         <option value="$PROJECT_DIR$/Public/Dingtalk.py" />
         <option value="$PROJECT_DIR$/Public/fengzhuang_dict.py" />
         <option value="$PROJECT_DIR$/config/test_report.yaml" />
-        <option value="$PROJECT_DIR$/run_http_excel_re.py" />
-        <option value="$PROJECT_DIR$/run_http_html.py" />
-        <option value="$PROJECT_DIR$/Public/get_excel.py" />
-        <option value="$PROJECT_DIR$/Public/assertion.py" />
         <option value="$PROJECT_DIR$/Public/py_Html.py" />
-        <option value="$PROJECT_DIR$/Case/case.py" />
         <option value="$PROJECT_DIR$/interfaceBase/base.py" />
         <option value="$PROJECT_DIR$/config/config.py" />
         <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/dd.py" />
         <option value="$PROJECT_DIR$/InterfaceBase/requests_base.py" />
+        <option value="$PROJECT_DIR$/InterfaceBase/base.py" />
+        <option value="$PROJECT_DIR$/Public/get_excel_new.py" />
+        <option value="$PROJECT_DIR$/Public/get_excel.py" />
+        <option value="$PROJECT_DIR$/Public/encapsulation_dict.py" />
+        <option value="$PROJECT_DIR$/Public/assertion.py" />
+        <option value="$PROJECT_DIR$/run_http_html.py" />
+        <option value="$PROJECT_DIR$/Case/case.py" />
+        <option value="$PROJECT_DIR$/run_http_excel_re.py" />
+        <option value="$PROJECT_DIR$/Public/pyreport_excel.py" />
       </list>
     </option>
   </component>
@@ -81,9 +118,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="185" />
-    <option name="y" value="187" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="371" />
+    <option name="y" value="238" />
     <option name="width" value="1064" />
     <option name="height" value="586" />
   </component>
@@ -92,54 +129,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestingFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestingFramework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestingFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestingFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITestingFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestingFramework" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-              <item name="InterfaceBase" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestingFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestingFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="APITestingFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITestingFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="Dingtalk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../APITestingFramework1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\Pyproject\APITestingFramework1\data" />
-      <recent name="D:\Documents\Pyproject\APITestingFramework1" />
-      <recent name="D:\Documents\Pyproject\APITestingFramework1\Case" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Pyproject\APITestingFramework" />
       <recent name="D:\Documents\Pyproject\APITestingFramework1\config" />
       <recent name="D:\Documents\Pyproject\APITestingFramework1\Public" />
       <recent name="D:\Documents\Pyproject\APITestingFramework1" />
       <recent name="D:\Documents\Pyproject\APITestingFramework1\Case" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Pyproject\APITestingFramework\Dingtalk" />
+      <recent name="D:\Documents\Pyproject\APITestingFramework" />
       <recent name="D:\Documents\Pyproject\APITestingFramework1\data" />
+      <recent name="D:\Documents\Pyproject\APITestingFramework1" />
+      <recent name="D:\Documents\Pyproject\APITestingFramework1\Case" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,66 +198,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.requests_base">
-    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="APITestingFramework1" />
+  <component name="RunManager" selected="Python.run_http_html">
+    <configuration name="base (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="APITestingFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interfaceBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterfaceBase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interfaceBase/base.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterfaceBase/base.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="dd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="APITestingFramework1" />
+    <configuration name="case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="APITestingFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Case/case.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="APITestingFramework1" />
+    <configuration name="get_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="APITestingFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Public" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Public/get_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="requests_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="APITestingFramework1" />
+      <module name="APITestingFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -232,7 +276,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="run_http_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="APITestingFramework1" />
+      <module name="APITestingFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -251,19 +295,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.run_http_html" />
-      <item itemvalue="Python.base" />
-      <item itemvalue="Python.demo" />
       <item itemvalue="Python.requests_base" />
-      <item itemvalue="Python.dd" />
+      <item itemvalue="Python.base (1)" />
+      <item itemvalue="Python.run_http_html" />
+      <item itemvalue="Python.case" />
+      <item itemvalue="Python.get_excel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.requests_base" />
-        <item itemvalue="Python.dd" />
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.base" />
         <item itemvalue="Python.run_http_html" />
+        <item itemvalue="Python.get_excel" />
+        <item itemvalue="Python.case" />
+        <item itemvalue="Python.base (1)" />
+        <item itemvalue="Python.requests_base" />
       </list>
     </recent_temporary>
   </component>
@@ -281,23 +325,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3974563" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1727672" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34713376" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17130308" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39808917" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -384,13 +428,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Case/log/.log-2018-11-24-17" />
-    <entry file="file://$PROJECT_DIR$/Public/encapsulation_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PycharmProjects/venv/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -405,21 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/get_excel_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/pyreport_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_http_excel_re.py" />
     <entry file="file://$PROJECT_DIR$/Report/201811260931-result.html" />
     <entry file="file://$PROJECT_DIR$/Report/201811260954-result.html" />
     <entry file="file://$PROJECT_DIR$/Report/201811261749-result.html" />
@@ -439,33 +461,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Report/201811270851-result.html" />
     <entry file="file://$PROJECT_DIR$/log/.log-2018-11-27-08" />
-    <entry file="file://$PROJECT_DIR$/Public/get_excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/assertion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Dingtalk.py">
+    <entry file="file://$PROJECT_DIR$/Dingtalk/Dingtalk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/test_report.yaml" />
-    <entry file="file://$PROJECT_DIR$/run_http_html.py" />
-    <entry file="file://$PROJECT_DIR$/Case/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-553">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -476,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#268#277#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,37 +483,10 @@
         <state relative-caret-position="-6885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/test_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="e#50#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InterfaceBase/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="e#39#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#57#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PycharmProjects/venv/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -548,22 +507,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dd.py">
+    <entry file="file://$PROJECT_DIR$/dd.py" />
+    <entry file="file://$PROJECT_DIR$/Public/get_excel_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="189">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/encapsulation_dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/assertion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#100#141#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterfaceBase/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InterfaceBase/requests_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+        <state relative-caret-position="308">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
           <folding>
-            <element signature="e#54#70#0" expanded="true" />
+            <element signature="e#54#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/test_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#50#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/get_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+          <folding>
+            <element signature="e#183#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_http_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#43#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Case/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#35#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_http_excel_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test_report.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/pyreport_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2738">
+          <caret line="108" column="23" lean-forward="true" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+          <folding>
+            <element signature="e#38#55#0" expanded="true" />
           </folding>
         </state>
       </provider>

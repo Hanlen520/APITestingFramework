@@ -3,6 +3,7 @@
 字典读取处理数据
 """
 '''字典取值'''
+
 def res(d,code):
     result=[]
     if isinstance(d, dict) and code in d.keys():

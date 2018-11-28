@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 """测试用例"""
-
-from Public.get_excel import datacel
+from InterfaceBase.base import RequestApi
+from Public.get_excel import dataParsing
 from Public.log import LOG, logger
 import os
 from config.config import Config_Try_Num,TestPlanUrl
-from interfaceBase.base import TestApi
 
 path = os.getcwd() + '\\data\\case.xlsx'
-
-listid, listkey, listconeent, listurl, listfangshi, listqiwang, listname = datacel(path)
+listid, listname, listmethod, listkey, listurl, listparams, listanticipate  = dataParsing(path)
 from Public.assertion import assert_in
 
 @logger('测试')
@@ -23,13 +21,14 @@ def testinterface():
     error_num=0
     for i in range(len(listurl)):
         while error_num<=Config_Try_Num+1:
-            api = TestApi(url=TestPlanUrl+listurl[i], key=listkey[i], connent=listconeent[i], fangshi=listfangshi[i])
-            apijson = api.getJson()
+            api = RequestApi(url=TestPlanUrl+listurl[i], params=listparams[i], method=listmethod[i])
+            # apijson = api.getJson()
+            apijson = api
             # print(api)
             # print(apijson)
             if apijson['code'] == 0:
-                LOG.info('inputdata> 参数:%s, url:%s ,返回:%s,预期:%s' % (listconeent[i], listurl[i], apijson, listqiwang[i]))
-                assert_re = assert_in(anticipate=listqiwang[i], returnjson=apijson)
+                LOG.info('inputdata> 参数:%s, url:%s ,返回:%s,预期:%s' % (listparams[i], listurl[i], apijson, listanticipate[i]))
+                assert_re = assert_in(anticipate=listanticipate[i], returnjson=apijson)
                 if assert_re['code'] == 0:
                     list_json.append(apijson['result'])
                     listrelust.append('pass')

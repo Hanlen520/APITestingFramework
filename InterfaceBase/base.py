@@ -1,30 +1,35 @@
 # -*- coding: utf-8 -*-
-# @File    : 接口封装文件
+"""
+request第二次封装，引用“from InterfaceBase.requests_base import request”
+"""
 
-from Public.test_requests import request
-reques=request()
+from InterfaceBase.requests_base import request
+request = request()
 
-class TestApi(object):
-	def __init__(self,url,key,connent,fangshi):
-		self.url=url
-		self.key=key
-		self.connent=connent
-		self.fangshi=fangshi
-	def testapi(self):
-		if self.fangshi=='POST':
-			self.parem = {'key': self.key, 'info': self.connent}
-			self.response=reques.post(self.url,self.parem)
-		elif self.fangshi=="GET":
-			self.parem = {'key': self.key, 'info': self.connent}
-			self.response = reques.get(url=self.url,params=self.parem)
-		return self.response
-	def getJson(self):
-		json_data = self.testapi()
-		return json_data
+class RequestApi(object):
 
-if "__name__" == "__main__":
+    def __init__(self, url, params, method):
+        self.url = url    #接口请求url
+        # self.key = key    #接口请求key值
+        self.param = params    #接口连接方式
+        self.rehquest_metod = method     #接口请求方式，post、get、put、delete
 
-	api = TestApi(url="http://www.shangzhan168.cn" + "/Account/Login", connent={"hnAccount":"15020579521","hnPassword":"123456"}, fangshi="POST")
-	apijson = api.getJson()
-	print(api)
-	print(apijson)
+    def testapi(self):
+        if self.rehquest_metod == "POST":
+            self.response = request.post(self.url, self.param)
+        elif self.rehquest_metod == "GET":
+            self.response = request.get(url=self.url, params=self.param)
+        elif self.rehquest_metod == "DELETE":
+            self.response = request.delete(url=self.url, params=self.param)
+        return self.response
+
+    def getJson(self):
+        json_data = self.testapi()
+        return json_data
+
+if __name__ == "__main__":
+
+    api = RequestApi(url="http://www.shangzhan168.cn/Account/Login", params={"hnAccount":"15020579521","hnPassword":"123456"}, method="POST")
+    apijson = api.getJson()
+    print(apijson)
+    print("第二次请求接口")
