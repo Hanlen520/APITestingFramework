@@ -1,31 +1,31 @@
-#!/usr/bin/env python
-# coding: utf-8
+# -*- coding: utf-8 -*-
+# @File    : 日志封装文件
+
+
+'''日志模块'''
 import os
 import logbook
 from logbook.more import ColorizedStderrHandler
 from functools import wraps
-
-check_path = '.'
+check_path='.'
 LOG_DIR = os.path.join(check_path, 'log')
 file_stream = False
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
     file_stream = True
 
-
-def get_logger(name='jiekou', file_log=file_stream, level=''):
+# 获取日志
+def get_logger(name='', file_log=file_stream, level=''):
     """ get logger Factory function """
     logbook.set_datetime_format('local')
     ColorizedStderrHandler(bubble=False, level=level).push_thread()
     logbook.TimedRotatingFileHandler(
         os.path.join(LOG_DIR, '%s.log' % name),
-        date_format='%Y-%m%d', bubble=True, encoding='utf-8').push_thread()
+        date_format='%Y-%m-%d-%H', bubble=True, encoding='utf-8').push_thread()
     return logbook.Logger(name)
-
-
 LOG = get_logger(file_log=file_stream, level='INFO')
 
-
+#log装饰器
 def logger(param):
     """ fcuntion from logger meta """
     def wrap(function):

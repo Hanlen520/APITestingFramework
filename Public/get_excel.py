@@ -8,7 +8,7 @@ from Public.log import logger, LOG
 def datacel(filrpath):
     try:
         file = xlrd.open_workbook(filrpath)
-        # file.encoding = 'utf8'
+        file.encoding = 'utf8'
         me = file.sheets()[0]
         nrows = me.nrows
         listid = []
@@ -35,9 +35,10 @@ def datacel(filrpath):
 @logger('生成数据驱动所用数据')
 def makedata():
     import os
-    path = os.getcwd() + '\\test_case_data\\case.xlsx'
+    path = os.getcwd() + '\\data\\case.xlsx'
+    # print(path)
     listid, listkey, listconeent, listurl, listfangshi, listqiwang,listname = datacel(path)
-    print(listid, listkey, listconeent, listurl, listfangshi, listqiwang,listname)
+    # print(listid, listkey, listconeent, listurl, listfangshi, listqiwang,listname)
     make_data = []
     for i in range(len(listid)):
         make_data.append({'url': listurl[i], 'key': listkey[i], 'coneent': listconeent[i], 'fangshi': listfangshi[i],
